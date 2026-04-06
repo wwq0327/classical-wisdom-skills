@@ -36,3 +36,4 @@ git clone https://github.com/wwq0327/classical-wisdom-skills.git ~/.claude/skill
 
 - 《论语》原文：499 条
 - 《道德经》原文：81 章
+- 古典原文出处：https://github.com/ahua/dataset
