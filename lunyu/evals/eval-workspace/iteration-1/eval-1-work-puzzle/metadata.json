@@ -1,0 +1,32 @@
+{
+  "eval_id": 1,
+  "eval_name": "work-puzzle",
+  "prompt": "我在工作中总觉得同事不配合我，是我的问题还是他们的问题？",
+  "assertions": [
+    {
+      "text": "输出包含📜或类似标记的原文引用",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "输出包含论语原文（如'君子求诸己'）",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "输出包含解读部分（✏️或类似标记）",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "解读包含放到具体事情上的分析（🌏或类似标记）",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "输出一句话总结（💡或类似标记）",
+      "passed": false,
+      "evidence": ""
+    }
+  ]
+}

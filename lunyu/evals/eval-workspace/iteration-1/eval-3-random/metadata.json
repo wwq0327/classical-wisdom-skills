@@ -1,0 +1,27 @@
+{
+  "eval_id": 3,
+  "eval_name": "random",
+  "prompt": "随便给我来几句论语看看",
+  "assertions": [
+    {
+      "text": "输出包含论语原文（至少1条）",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "输出包含解读（✏️或类似标记）",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "输出包含一句话总结（💡或类似标记）",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "格式规范，有emoji或符号标记",
+      "passed": false,
+      "evidence": ""
+    }
+  ]
+}

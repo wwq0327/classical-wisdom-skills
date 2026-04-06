@@ -1,0 +1,27 @@
+{
+  "eval_id": 3,
+  "eval_name": "random",
+  "config": "with_skill",
+  "assertions": [
+    {
+      "text": "输出包含论语原文（至少1条）",
+      "passed": true,
+      "evidence": "Found 3 random quotes"
+    },
+    {
+      "text": "输出包含解读（✏️或类似标记）",
+      "passed": true,
+      "evidence": "All 3 quotes have ✏️解读"
+    },
+    {
+      "text": "输出包含一句话总结（💡或类似标记）",
+      "passed": true,
+      "evidence": "All 3 quotes have 💡一句话"
+    },
+    {
+      "text": "格式规范，有emoji或符号标记",
+      "passed": true,
+      "evidence": "Uses 📖✏️💡 markers consistently"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "eval_id": 2,
+  "eval_name": "learning",
+  "config": "with_skill",
+  "assertions": [
+    {
+      "text": "输出包含多条论语原文（至少2条）",
+      "passed": true,
+      "evidence": "Found 10 learning-related quotes"
+    },
+    {
+      "text": "每条包含原文、解读（✏️）",
+      "passed": true,
+      "evidence": "Each quote has 📖原文, ✏️解读, 💡一句话"
+    },
+    {
+      "text": "涉及学习主题相关句子",
+      "passed": true,
+      "evidence": "Found 学而时习之, 温故知新, 学而不思则罔, etc."
+    },
+    {
+      "text": "输出包含主题标记（如📚或类似）",
+      "passed": true,
+      "evidence": "Found 🔗综合建议"
+    }
+  ]
+}

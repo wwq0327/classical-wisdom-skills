@@ -1,0 +1,32 @@
+{
+  "eval_id": 1,
+  "eval_name": "work-puzzle",
+  "config": "with_skill",
+  "assertions": [
+    {
+      "text": "输出包含📜或类似标记的原文引用",
+      "passed": true,
+      "evidence": "Found 📜 相关原文 with 3 quotes"
+    },
+    {
+      "text": "输出包含论语原文（如'君子求诸己'）",
+      "passed": true,
+      "evidence": "Found: 躬自厚而薄责于人, 君子求诸己, 其身正不令而行"
+    },
+    {
+      "text": "输出包含解读部分（✏️或类似标记）",
+      "passed": true,
+      "evidence": "Found ✏️ 这句话啥意思 sections"
+    },
+    {
+      "text": "解读包含放到具体事情上的分析（🌏或类似标记）",
+      "passed": true,
+      "evidence": "Found 🌏 放到你这件事上 sections"
+    },
+    {
+      "text": "输出一句话总结（💡或类似标记）",
+      "passed": true,
+      "evidence": "Found 💡 一句话总结 sections and 综合来看"
+    }
+  ]
+}

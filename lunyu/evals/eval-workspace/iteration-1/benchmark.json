@@ -1,0 +1,64 @@
+{
+  "iteration": 1,
+  "skill_name": "lunyu",
+  "configs": [
+    {
+      "name": "with_skill",
+      "evals": [
+        {
+          "id": "eval-1",
+          "name": "work-puzzle",
+          "pass_rate": 1.0,
+          "mean_duration_ms": 60261,
+          "mean_tokens": 37690
+        },
+        {
+          "id": "eval-2",
+          "name": "learning",
+          "pass_rate": 1.0,
+          "mean_duration_ms": 80503,
+          "mean_tokens": 39863
+        },
+        {
+          "id": "eval-3",
+          "name": "random",
+          "pass_rate": 1.0,
+          "mean_duration_ms": 51238,
+          "mean_tokens": 37425
+        }
+      ],
+      "overall_pass_rate": 1.0,
+      "mean_duration_ms": 64000.7,
+      "mean_tokens": 38326
+    },
+    {
+      "name": "baseline",
+      "evals": [
+        {
+          "id": "eval-1",
+          "name": "work-puzzle",
+          "pass_rate": null,
+          "mean_duration_ms": 23525,
+          "mean_tokens": 16065
+        },
+        {
+          "id": "eval-2",
+          "name": "learning",
+          "pass_rate": null,
+          "mean_duration_ms": 23294,
+          "mean_tokens": 16632
+        },
+        {
+          "id": "eval-3",
+          "name": "random",
+          "pass_rate": null,
+          "mean_duration_ms": 25136,
+          "mean_tokens": 16038
+        }
+      ],
+      "overall_pass_rate": null,
+      "mean_duration_ms": 23985,
+      "mean_tokens": 16245
+    }
+  ]
+}

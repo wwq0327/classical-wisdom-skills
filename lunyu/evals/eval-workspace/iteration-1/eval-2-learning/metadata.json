@@ -1,0 +1,27 @@
+{
+  "eval_id": 2,
+  "eval_name": "learning",
+  "prompt": "给我推荐一些关于学习的论语内容",
+  "assertions": [
+    {
+      "text": "输出包含多条论语原文（至少2条）",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "每条包含原文、解读（✏️）",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "涉及学习主题相关句子（如'学而时习之'、'学而不思'等）",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "输出包含主题标记（如📚或类似）",
+      "passed": false,
+      "evidence": ""
+    }
+  ]
+}
